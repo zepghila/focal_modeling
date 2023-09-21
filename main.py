@@ -32,9 +32,9 @@ def EFDs_given_fk_d(fk, d, ft_values):
     plt.show(block=False)  # Display the plot without blocking the execution
 
 def main():
-    d = 2  # Distance between Lk and Lt in mm
+    d = 50  # Distance between Lk and Lt in mm
     ft_max = 999 # Max focal length (at rest) for the tuneable lens
-    ft_min = 800 # Min focal length (full actuation) for the tuneable lens
+    ft_min = 400 # Min focal length (full actuation) for the tuneable lens
 
     ft_values = np.linspace(ft_max, ft_min, 50)  # Focal lengths of the tunable lens in mm
     fk_range = np.linspace(10, 150, 50)  # Range of known focal lengths in mm

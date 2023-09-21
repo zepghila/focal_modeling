@@ -1,0 +1,12 @@
+The range of tuneability down from infinity for the tuenable lens is unknown.
+It could be Longer (best case) or it could be shorter (worst case, could be very possible)
+
+(for the conclusions below, refer to the screenshots of the graphs generated with the script)
+With a Longer_Tunable_EFD_Range.png, using a paired lens with a known longer focal length (e.g. >100mm) would give a measurable EFD at the output that would allow characterising teh lens's EFD VS the applied voltage
+With a Shorter_Tunable_EFD_Range (and it could be even shorter than that), the measured EFD at the output would be very hard/impossible to measure, no matter the known focal length (for reasonable values) or the distance between the tuneable lens and the known-focal-length lens
+
+Suggested course of action:
+- quickly try to ballpark-identify the range of tuneability for the lens by using e.g. a fixed-focus-lens of 100mm or so: is it a shorter or larger range?
+- if it's larger then happy days: characterise the lenses
+- if it's shorter then another approach is needed >> an example could be trying to exploit this fact: "The focal length of a thin convex lens can be easily measured by using it to form an image of a distant light source on a screen."[https://en.wikipedia.org/wiki/Focal_length]
+
